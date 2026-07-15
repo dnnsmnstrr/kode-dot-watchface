@@ -1,0 +1,25 @@
+{
+  "name": "kode-dot-kody",
+  "author": "Dennis Muensterer",
+  "version": "1.0.1",
+  "keywords": ["pebble-app", "watchface", "kode-dot"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Kody Reads",
+    "uuid": "e3028d01-c5af-45b2-ba95-b98c10597dfa",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["emery"],
+    "watchapp": { "watchface": true },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_KODE_LOGO",
+          "file": "images/kode-logo.png"
+        }
+      ]
+    }
+  }
+}

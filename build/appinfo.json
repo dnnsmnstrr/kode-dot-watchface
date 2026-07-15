@@ -1,0 +1,29 @@
+{
+    "displayName": "Kody Reads",
+    "uuid": "e3028d01-c5af-45b2-ba95-b98c10597dfa",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+        "emery"
+    ],
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "bitmap",
+                "name": "IMAGE_KODE_LOGO",
+                "file": "images/kode-logo.png"
+            }
+        ]
+    },
+    "name": "kode-dot-kody",
+    "shortName": "Kody Reads",
+    "longName": "Kody Reads",
+    "versionLabel": "1.0.1",
+    "companyName": "Dennis Muensterer",
+    "messageKeys": {},
+    "appKeys": {},
+    "capabilities": []
+}
