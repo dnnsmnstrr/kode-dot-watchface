@@ -10,3 +10,8 @@ The book cover uses the supplied Kode logo path. The face redraws only once per 
 pebble build
 pebble install --emulator emery
 ```
+
+## Sources
+
+- [Kode Dot Website](https://kode.diy/)
+- [Outfit-Font](https://fonts.google.com/specimen/Outfit)
