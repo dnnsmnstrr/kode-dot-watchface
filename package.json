@@ -4,13 +4,17 @@
   "version": "1.0.1",
   "keywords": ["pebble-app", "watchface", "kode-dot"],
   "private": true,
+  "scripts": {
+    "banner": "bash scripts/generate-banner.sh",
+    "icons": "bash scripts/generate-icons.sh"
+  },
   "dependencies": {},
   "pebble": {
     "displayName": "Kody Reads",
     "uuid": "e3028d01-c5af-45b2-ba95-b98c10597dfa",
     "sdkVersion": "3",
     "enableMultiJS": true,
-    "targetPlatforms": ["emery"],
+    "targetPlatforms": ["aplite", "basalt", "chalk", "diorite", "emery"],
     "watchapp": { "watchface": true },
     "resources": {
       "media": [
@@ -18,6 +22,21 @@
           "type": "bitmap",
           "name": "IMAGE_KODE_LOGO",
           "file": "images/kode-logo.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_KODE_LOGO_SMALL",
+          "file": "images/kode-logo-small.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_KODE_LOGO_ROUND",
+          "file": "images/kode-logo-round.png"
+        },
+        {
+          "type": "font",
+          "name": "FONT_OUTFIT_BOLD_42",
+          "file": "../Outfit/static/Outfit-Bold.ttf"
         }
       ]
     }
