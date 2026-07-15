@@ -1,4 +1,4 @@
-# Kody Reads
+# Kode Dot Watchface
 
 An Emery-first Pebble Time 2 watchface inspired by Kode Dot's 2026 identity: Kody the oversized blue hamster reading a black book, with the current time above.
 
